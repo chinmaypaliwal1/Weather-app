@@ -113,3 +113,19 @@ html {
 input.weather-app-input {
   padding: 15px;
 }
+@media(max-width:660px){
+  .app {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #0000001a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 128px auto;
+    min-height: 440px;
+    padding-bottom: 32px;
+    text-align: center;
+    width: 350px;
+  }
+}
